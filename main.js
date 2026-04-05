@@ -84,12 +84,19 @@
 //console.log(M);
 //=============================================================================
 // Abdulaziz X kg olmani A soвЂ™mdan, Y kg olmani B soвЂ™mdan sotib oldi. Abdulaziz jami qancha savdo qilgan?
-let x = 5;
-let a_narx = 10000;
+//let x = 5;
+//let a_narx = 10000;
 
-let y = 3;
-let b_narx = 12000;
+//let y = 3;
+//let b_narx = 12000;
 
-let jami = x * a_narx + y * b_narx;
+//let jami = x * a_narx + y * b_narx;
 
-console.log("Abdulaziz jami " + jami + " so'mlik savdo qildi.");
+//console.log("Abdulaziz jami " + jami + " so'mlik savdo qildi.");
+//==================================================================================
+// Kun boshidan boshlab N sekund vaqt o'tti. Kun boshidan boshlab qancha minut to'la o`tganligini aniqlovchi programma tuzilsin
+
+let N = 1200;
+let M = 60;
+let A = N / M;
+console.log("kun boshidan boshlab" + A + "minut otdi");
