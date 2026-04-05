@@ -66,12 +66,19 @@
 // To`g`ri to`rtburchakning tomonlari a va b berilgan. Uning yuzasi va perimetri aniqlansin.
 // S = a * b
 // P = 2 * (a + b)
-let a = 10; // 1-tomon
-let b = 5; // 2-tomon
+//let a = 10; // 1-tomon
+//let b = 5; // 2-tomon
 
-let s = a * b;
+//let s = a * b;
 
-let p = 2 * (a + b);
+//let p = 2 * (a + b);
 
-console.log("To'g'ri to'rtburchak yuzasi:", s); // 50
-console.log("To'g'ri to'rtburchak perimetri:", p); // 30
+//console.log("To'g'ri to'rtburchak yuzasi:", s); // 50
+//console.log("To'g'ri to'rtburchak perimetri:", p); // 30
+//=============================================================================
+// Ikkita son a va b berilgan. Ularning o`rta arifmetigi M aniqlansin.
+// M = (a + b) / 2
+//let a = 5;
+//let b = 10;
+//let M = (a + b) / 2;
+//console.log(M);
