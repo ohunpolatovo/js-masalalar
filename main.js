@@ -18,8 +18,18 @@
 
 let v = 60;
 let t = 3;
-let s = 60 * 3;
+let s = v * t;
 console.log(s);
 
 // Begin1. Doiraning radiusi R berilgan. Uning uzunligi L va yuzasi S aniqlansin.
 // L= 2 * ПЂ * R, S = ПЂ * R^2
+
+let R = +prompt("Radiusni kiriting:");
+
+let L = 2 * Math.PI * R;
+let S = Math.PI * R * R;
+
+console.log("Doira uzunligi (L): " + L);
+console.log("Doira yuzasi (S): " + S);
+//=============================================================================
+// Begin2. Berilgan A va B sonlarining qiymatlarini almashtiring. A va B ning yangi qiymati ekranga chiqarilsin.
