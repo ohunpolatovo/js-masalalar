@@ -16,21 +16,21 @@
 // Tezlik v va vaqt t berilgan.
 // Masofani toping.
 
-let v = 60;
-let t = 3;
-let s = v * t;
-console.log(s);
+//let v = 60;
+//let t = 3;
+//let s = v * t;
+//console.log(s);
 
 // Begin1. Doiraning radiusi R berilgan. Uning uzunligi L va yuzasi S aniqlansin.
 // L= 2 * ПЂ * R, S = ПЂ * R^2
 
-let R = +prompt("Radiusni kiriting:");
+//let R = +prompt("Radiusni kiriting:");
 
-let L = 2 * Math.PI * R;
-let S = Math.PI * R * R;
+//let L = 2 * Math.PI * R;
+//let S = Math.PI * R * R;
 
-console.log("Doira uzunligi (L): " + L);
-console.log("Doira yuzasi (S): " + S);
+//console.log("Doira uzunligi (L): " + L);
+//console.log("Doira yuzasi (S): " + S);
 //=============================================================================
 // Begin2. Berilgan A va B sonlarining qiymatlarini almashtiring. A va B ning yangi qiymati ekranga chiqarilsin.
 //let a = 5;
@@ -46,18 +46,32 @@ console.log("Doira yuzasi (S): " + S);
 
 //let a = 82;
 
-//let onlik = a / 10;
+//let onlik = Math.floor(a / 10);
 
-//let birlik = a % 10;
+//let birlik = Math.floor(a % 10);
 
 //console.log("O'nlik:", onlik); // 8
 //console.log("Birlik:", birlik); // 2
 
 //=============================================================================
 // Uch xonali son berilgan. Uning yuzlar xonasidagi raqamini aniqlovchi programma tuzilsin.
-let a = 538; // Ixtiyoriy uch xonali son
+//let a = 538; // Ixtiyoriy uch xonali son
 
-// 100 ga bo'lamiz (5.38 chiqadi) va butun qismini olamiz
-let yuzlar = a / 100;
+//let yuzlar = Math.floor(a / 100);
 
-console.log("Yuzlar xonasidagi raqam:", yuzlar); // Natija: 5
+//console.log("Yuzlar xonasidagi raqam:", yuzlar);
+
+//=============================================================================
+
+// To`g`ri to`rtburchakning tomonlari a va b berilgan. Uning yuzasi va perimetri aniqlansin.
+// S = a * b
+// P = 2 * (a + b)
+let a = 10; // 1-tomon
+let b = 5; // 2-tomon
+
+let s = a * b;
+
+let p = 2 * (a + b);
+
+console.log("To'g'ri to'rtburchak yuzasi:", s); // 50
+console.log("To'g'ri to'rtburchak perimetri:", p); // 30
