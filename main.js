@@ -33,3 +33,12 @@ console.log("Doira uzunligi (L): " + L);
 console.log("Doira yuzasi (S): " + S);
 //=============================================================================
 // Begin2. Berilgan A va B sonlarining qiymatlarini almashtiring. A va B ning yangi qiymati ekranga chiqarilsin.
+let a = 5;
+let b = 10;
+
+let c = a; // 1. A dagi 5 ni C ga olib qo'ydik
+a = b; // 2. B dagi 10 ni A ga berdik
+b = c; // 3. C dagi 5 ni B ga berdik
+
+console.log("A ning yangi qiymati:", a); // 10
+console.log("B ning yangi qiymati:", b); // 5
