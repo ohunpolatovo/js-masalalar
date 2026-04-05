@@ -82,3 +82,14 @@
 //let b = 10;
 //let M = (a + b) / 2;
 //console.log(M);
+//=============================================================================
+// Abdulaziz X kg olmani A soвЂ™mdan, Y kg olmani B soвЂ™mdan sotib oldi. Abdulaziz jami qancha savdo qilgan?
+let x = 5;
+let a_narx = 10000;
+
+let y = 3;
+let b_narx = 12000;
+
+let jami = x * a_narx + y * b_narx;
+
+console.log("Abdulaziz jami " + jami + " so'mlik savdo qildi.");
